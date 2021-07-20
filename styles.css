@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap");
+
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    color: black;
+}
+
+
+body{
+    display: grid;
+    place-content: center;
+    row-gap: 0.9rem;
+    padding: 1rem;
+
+}
+
+h1{
+    margin: auto;
+}
+
+.inputInfo{
+    border-radius: 9px;
+    border: 2px solid black;
+    background-color: #E5E7EB;
+
+}
+.btn-translate{
+    padding: 1rem;
+    width: fit-content;
+    margin: auto;
+}
